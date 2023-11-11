@@ -1,0 +1,21 @@
+# GIT
+alias gin='git init'
+alias gco='git commit'
+alias gcom='git commit -m'
+alias gcoan='git commit --amend --no-edit'
+alias gst='git stash'
+alias gstp='git stash pop'
+alias gpu='git push'
+alias gpl='git pull'
+alias gplb='git pull origin'
+alias gpub='git push origin'
+
+# GIT Flow
+alias gf='git flow'
+alias gffs='git flow init'
+alias gffs='git flow feature start'
+alias gfff='git flow feature finish'
+alias gfhs='git flow hotfix start'
+alias gfhf='git flow hotfix finish'
+alias gfrs='git flow release start'
+alias gfrf='git flow release finish'
