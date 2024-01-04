@@ -233,3 +233,7 @@ bar {
         # 2px left/right and 2px top/bottom padding
         padding 3px 2px
 }
+
+for_window [all] border pixel 1
+gaps inner 5px
+smart_borders no_gaps
