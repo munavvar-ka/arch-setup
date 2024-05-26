@@ -3,7 +3,8 @@ function timer_start {
 }
 
 function timer_stop {
-  timer_show=$(($SECONDS - $timer))
+  time_in_seconds=$(($SECONDS - $timer))
+  timer_show=$(date -d@$time_in_seconds -u +%H:%M:%S)
   unset timer
 }
 
