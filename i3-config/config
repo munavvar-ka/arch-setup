@@ -69,6 +69,7 @@ bindsym $mod+j focus left
 bindsym $mod+k focus down
 bindsym $mod+l focus up
 bindsym $mod+semicolon focus right
+bindsym $mod+x [urgent=latest] focus
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
