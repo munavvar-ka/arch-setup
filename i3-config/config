@@ -228,11 +228,20 @@ exec_always feh --bg-fill "/usr/share/backgrounds/archlinux/awesome.png"
 bar {
         status_command i3status -c "~/.config/i3/i3status.conf"
         position top
-        font pango:monospace SemiBold 16
+        font pango:monospace SemiBold 14
         separator_symbol "    "
 
         # 2px left/right and 2px top/bottom padding
-        padding 3px 2px
+        padding 3px 10px 3px 5px
+        colors {
+                background #333333
+                statusline #FFFFFF
+
+                focused_workspace  #ffffff #285577
+                active_workspace   #ffffff #333333
+                inactive_workspace #888888 #111111
+                urgent_workspace   #ffffff #900000
+        }
 }
 
 for_window [all] border pixel 1
